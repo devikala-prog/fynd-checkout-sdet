@@ -1,0 +1,18 @@
+{
+  "name": "fynd-checkout-sdet",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mini checkout and Playwright browser test suite for the Fynd SDET hiring challenge",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:report": "playwright show-report",
+    "serve": "serve -l 4173 ."
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^22.15.30",
+    "serve": "^14.2.4",
+    "typescript": "^5.8.3"
+  }
+}
